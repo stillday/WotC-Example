@@ -1,5 +1,5 @@
 {
-    "name": "wotc-example",
+    "name": "WotC-Example",
     "title": "A example for WotC",
     "description": "This is a German Example for WotC",
     "author": "stillday",
@@ -24,9 +24,9 @@
             "name": "babele"
         }
     ],
-    "url": "",
-    "manifest": "",
-    "download": "",
+    "url": "https://github.com/stillday/wotc-example",
+    "manifest": "https://github.com/stillday/wotc-example/releases/latest/download/module.json",
+    "download": "https://github.com/stillday/wotc-example/releases/latest/download/module.zip",
     "manifestPlusVersion": "1.2.0",
     "packs": [
         {
@@ -48,10 +48,10 @@
             "entity": "JournalEntry"
           },
           {
-            "name": "gm-documents",
-            "label": "Example GM Documents",
-            "path": "/packs/gm-documents.db",
-            "entity": "JournalEntry"
+            "name": "Klassen Merkmale",
+            "label": "Example Klassen Merkmale",
+            "path": "/packs/klassen-merkmale.db",
+            "entity": "item"
           },
           {
             "name": "items",
