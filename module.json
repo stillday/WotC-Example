@@ -1,0 +1,72 @@
+{
+    "name": "wotc-example",
+    "title": "A example for WotC",
+    "description": "This is a German Example for WotC",
+    "author": "stillday",
+    "authors": [
+        {
+          "name": "stillday",
+          "email": "jan-dennisd@outlook.at",
+          "url": ""
+        }
+      ],
+    "version": "0.0.1",
+    "minimumCoreVersion": "0.7.9", 
+    "compatibleCoreVersion": "0.9.245",
+    "dependencies": [{
+        "name": "dnd5e",
+        "type": "system"
+        },
+        {
+            "name": "FoundryVTT-dnd5e-DE"
+        },
+        {
+            "name": "babele"
+        }
+    ],
+    "url": "",
+    "manifest": "",
+    "download": "",
+    "manifestPlusVersion": "1.2.0",
+    "packs": [
+        {
+            "name": "maps",
+            "label": "Example Maps",
+            "path": "/packs/maps.db",
+            "entity": "Scene"
+          },
+          {
+            "name": "actors",
+            "label": "Example Monsters",
+            "path": "/packs/monster.db",
+            "entity": "Actor"
+          },
+          {
+            "name": "journals",
+            "label": "Example Journals",
+            "path": "/packs/journals.db",
+            "entity": "JournalEntry"
+          },
+          {
+            "name": "gm-documents",
+            "label": "Example GM Documents",
+            "path": "/packs/gm-documents.db",
+            "entity": "JournalEntry"
+          },
+          {
+            "name": "items",
+            "label": "Example Items",
+            "path": "/packs/items.db",
+            "entity": "Item"
+          },
+          {
+            "name": "rolltables",
+            "label": "Example Rolltables",
+            "path": "/packs/rolltables.db",
+            "entity": "RollTable"
+          }
+    ],
+    "scripts": [
+        "scripts/init.js"
+    ]
+}
