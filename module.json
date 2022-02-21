@@ -10,7 +10,7 @@
           "url": ""
         }
       ],
-    "version": "0.0.1",
+    "version": "0.0.2",
     "minimumCoreVersion": "0.7.9", 
     "compatibleCoreVersion": "0.9.245",
     "dependencies": [{
@@ -48,10 +48,10 @@
             "entity": "JournalEntry"
           },
           {
-            "name": "Klassen Merkmale",
+            "name": "klassen-merkmale",  
             "label": "Example Klassen Merkmale",
             "path": "/packs/klassen-merkmale.db",
-            "entity": "item"
+            "entity": "Item"
           },
           {
             "name": "items",
